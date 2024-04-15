@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js"
+  },
+  "author": "Olga Em",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.4.1",
+    "cucumber": "^7.0.0-rc.0",
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.2.0",
+    "puppeteer": "^13.7.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
