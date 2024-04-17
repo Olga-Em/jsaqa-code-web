@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "cypress run --browser chrome --headless --config-file cypress.config.js",
+    "test2": "cypress run --browser chrome --headed --config-file cypress.config.js",
+    "chrome": "cypress run --browser chrome --headed --config-file cypress.config.js",
+    "chrome1": "cypress run --browser chrome --headless --config-file cypress.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olga Em",
   "license": "ISC",
   "description": "",
   "dependencies": {
