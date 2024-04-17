@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test1": "cypress run --browser chrome --headless --config-file cypress.config.js",
-    "test2": "cypress run --browser chrome --headed --config-file cypress.config.js",
     "chrome": "cypress run --browser chrome --headed --config-file cypress.config.js",
-    "chrome1": "cypress run --browser chrome --headless --config-file cypress.config.js"
+    "chrome1": "cypress run --browser chrome --headless --config-file cypress.config.js",
+    "edge": "cypress run --browser edge --headed --config-file cypress.config.js",
+    "edgeHeadless": "cypress run --browser edge --headless --config-file cypress.config.js" 
   },
   "keywords": [],
   "author": "Olga Em",
