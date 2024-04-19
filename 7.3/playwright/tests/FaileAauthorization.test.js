@@ -2,13 +2,7 @@ const { test, expect } = require('@playwright/test');
 const {chromium} = require("playwright");
 
     test("Successful authorization", async ({ page }) => {
-      
-      const browser = await chromium.launch({
-        headless : true,
-        slowMo : 500,
-        devtools : true,
-      });
-      
+            
       await page.goto('https://netology.ru/');
   
       await Promise.all([
